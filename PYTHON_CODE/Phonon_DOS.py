@@ -16,7 +16,7 @@ from matplotlib.colors import Normalize
     #data = yaml.safe_load(f)
     
 # Open the DOS file    
-f = open("C:\\Users\\aleja\\tfg_vasp\\phonopy\\dos\\total_dos_40.dat", "r")
+f = open("C:\\path\\to\\your\\file", "r")
 
 # Skip the header line
 lines = f.readlines()[1:]
