@@ -16,7 +16,7 @@ from matplotlib.colors import Normalize
 plt.close("all")
 
 # Code to plot the density of states
-fig_dos, ax = pyprocar.dosplot(code="vasp", dirname="C:\\Users\\aleja\\tfg_vasp\\dos",
+fig_dos, ax = pyprocar.dosplot(code="vasp", dirname="C:\\path\\to\\your\\file",
                            mode="plain", elimit=[-10, 10], dos_limit=[0, 2],
                            orientation="horizontal", title="Graphene DOS")
 
