@@ -1,0 +1,19 @@
+ System Graphene
+# ------NPAR tells VASP to switch on parallelization over bands
+NCORE=4
+NPAR=2
+NSIM=4
+# ------Electronic minimisation---------
+  ENCUT  =    245
+#  ENCUT  =    320
+#  PREC=Accur # Eleccion del cutoff y tratamiento de los "wrapping-errors"
+  EDIFF=1.0E-07
+# ------Dynamics---------
+#     IBRION=2   # Tipo de relajacion ionica: MD, CG... (2=CG)
+#     NSW=30     # Numero maximo de pasos en la relajacion ionica
+#     ISIF=2     # 2=Forces, stress tensors and dof positions; p4=Relax rprimd y xred @V=cte;2=Rel xred;3=all; 5=Rel rprimd
+#     EDIFFG=-5.0E-03 #  Para la relajacion ionica cuando las fuerzas son menores de
+#                                #+ de EDIFFG (1E-2eV/A<1E-3mdynas)
+# ------Smearing
+ ISMEAR = 0   # Gaussian smearing
+ SIGMA = 0.05  # 0.1 broadening default value
