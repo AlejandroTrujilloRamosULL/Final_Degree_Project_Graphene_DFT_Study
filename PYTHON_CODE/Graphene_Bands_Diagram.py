@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 plt.close("all")
 
 # Code to plot the band diagrams of Graphene , obtain figure and axes
-fig_band, ax = pyprocar.bandsplot(code="vasp", dirname="C:\\Users\\aleja\\tfg_vasp\\bands",
+fig_band, ax = pyprocar.bandsplot(code="vasp", dirname="C:\\path\\to\\your\\file",
                    elimit=[-5, 5], mode="plain", interpolation_factor=3, 
                    color="midnightblue")
 
