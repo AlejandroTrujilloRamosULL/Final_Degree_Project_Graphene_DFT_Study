@@ -14,7 +14,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # We open the file from the required path, with reading option "r" only
-f = open("C:\\Users\\aleja\\tfg_vasp\\elfcar\\ELFCAR_prueba.txt", "r")
+f = open("C:\\path\\to\\your\\file", "r")
 
 # We skip the headers of the file (there are 4 lines of information before 
 # the data we want to retrieve)
