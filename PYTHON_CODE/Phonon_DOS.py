@@ -10,10 +10,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
 from matplotlib.colors import Normalize
-
-# Open and extract the data for the mesh
-#with open("C:\\Users\\aleja\\tfg_vasp\\phonopy\\dos\\mesh.yaml") as f:
-    #data = yaml.safe_load(f)
     
 # Open the DOS file    
 f = open("C:\\path\\to\\your\\file", "r")
