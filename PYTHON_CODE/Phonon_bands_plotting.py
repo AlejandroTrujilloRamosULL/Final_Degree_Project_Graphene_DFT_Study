@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import yaml
 
 # Open and extract the data from the band.yaml
-with open("C:\\Users\\aleja\\tfg_vasp\\phonopy\\band\\band.yaml") as f:
+with open("C:\\path\\to\\your\\file") as f:
     data = yaml.safe_load(f)
     
 # Extract and classify the different data
