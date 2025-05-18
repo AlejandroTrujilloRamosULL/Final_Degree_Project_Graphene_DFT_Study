@@ -4,7 +4,7 @@ NCORE=4
 NPAR=2
 NSIM=4
 # ------Electronic minimisation---------
-  ENCUT  =    245
+  ENCUT  =    700
 #  ENCUT  =    320
 #  PREC=Accur # Eleccion del cutoff y tratamiento de los "wrapping-errors"
   EDIFF=1.0E-07
