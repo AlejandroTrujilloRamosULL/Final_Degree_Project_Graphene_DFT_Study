@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Trujillo Ramos"
+  given-names: "Alejandro"
+title: "Graphene DFT Study (Final Degree Project)"
+version: 2.0.4
+date-released: 2024-05-18
+repository-code: "https://github.com/AlejandroTrujilloRamosULL/Final_Degree_Project_Graphene_DFT_Study"
