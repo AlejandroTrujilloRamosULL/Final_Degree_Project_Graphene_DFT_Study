@@ -1,0 +1,1 @@
+In this folder, you can find code for plotting the bands and dos results obtained from the calculations, for the electronic and vibrational contributions, as well as a plotting code for the Electron Localization Function. 
