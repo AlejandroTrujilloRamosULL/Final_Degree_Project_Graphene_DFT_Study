@@ -1,0 +1,14 @@
+Graphene 2D Bands
+
+200                  ! #200 intersections
+Line-mode
+reciprocal
+
+0.0   0.0   0.0      ! Gamma
+0.333 0.333 0.0      ! K
+
+0.333 0.333 0.0      ! K
+0.5   0.0   0.0      ! M
+
+0.5   0.0   0.0      ! M
+0.0   0.0   0.0      ! Gamma
